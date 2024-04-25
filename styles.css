@@ -10,6 +10,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 30px 120px;
 }
 
 #header-logo {
@@ -19,7 +20,7 @@ header {
 }
 
 #header-logo img {
-    width: 80px;
+    width: 60px;
 }
 
 #header-logo h2{
@@ -29,15 +30,51 @@ header {
 
 header ul {
     display: flex;
+    gap: 50px;
+    align-items: center;
 }
+
 
 header ul li a{
     color: white;
     text-decoration: none;
+    font-family: 'Gilroy';
+    padding: 10px;
+}
+
+.contact {
+    background-color: #FD621F;
+    padding: 8px 15px;
+    font-weight: 700;
+    border-radius: 11px;
 }
 
 @font-face {
     font-family: 'Rethink Sans';
     src: url('./src/RethinkSans-ExtraBold.ttf') format('truetype');
     font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./src/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./src/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./src/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./src/Gilroy-Black.ttf') format('truetype');
+    font-weight: 800;
 }
