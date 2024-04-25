@@ -51,7 +51,7 @@ header ul li a{
 
 #banner-comp {
     color: white;
-    font-family: 'Rethink Sans';
+    
 }
 #banner-background {
     position: absolute;
@@ -72,7 +72,44 @@ header ul li a{
 
 #banner-completo {
     width: 1100px;
+    margin-left: 5%;
+}
 
+#about {
+    padding: 180px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about-job {
+    color: #FD621F;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#about-img {
+    width: 120px;
+}
+
+#about h1 {
+    color: white;
+    font-family: 'Rethink Sans';
+    font-size: 70px;
+
+}
+
+#about p {
+    color: white;
+    font-family: 'Gilroy';
+    width: 50%;
+}
+
+#projects-list {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 @font-face {
